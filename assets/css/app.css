@@ -3683,11 +3683,11 @@ hr {
 }
 
 .logo-box img {
-  width: auto !important;
-  height: 100px !important;
+  width: 200px !important;
+
 }
 
 .club-detail img {
-  width: auto !important;
-  height: 130px !important;
+  width:200px !important;
+
 }
