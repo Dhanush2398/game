@@ -1800,7 +1800,7 @@ label.error {
   color: #0C0C0D;
   display: flex;
   align-items: center;
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 .header .navigation .menu-button-right .main-menu__right .main-menu__login:hover,
 .header .navigation .menu-button-right .main-menu__right .main-menu__search:hover {
@@ -1812,7 +1812,7 @@ label.error {
   font-weight: 200;
   color: #FAFAFA;
   cursor: pointer;
-  transition: 500ms;
+  transition: 400ms;
   display: none;
 }
 @media (max-width: 1099px) {
@@ -3542,6 +3542,7 @@ footer .footer-wrapper .link-block .link-list li:hover a {
   border-radius: 8px;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
+  height: 70px;
 }
 
 .ques:hover {

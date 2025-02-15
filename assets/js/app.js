@@ -501,6 +501,25 @@ var MyScroll = "";
     },
   };
 
+  document.querySelectorAll(".show-hide-home").forEach((item) => {
+    item.addEventListener("click", function (e) {
+        e.preventDefault();
+        let answer = this.nextElementSibling;
+        let arrow = this.querySelector("img");
+
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+            arrow.classList.remove("active");
+        } else {
+            document.querySelectorAll(".sliding-div").forEach((div) => (div.style.display = "none"));
+            document.querySelectorAll(".ques img").forEach((img) => img.classList.remove("active"));
+            answer.style.display = "block";
+            arrow.classList.add("active");
+        }
+    });
+});
+
+
   Init.i();
 })(window, document, jQuery);
 
