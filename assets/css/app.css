@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /*---------------------------------------------"
-// Template Name: Jackpot
-// Description:  Jackpot Html Template
-// Version: 1.0.0
 
 ===============================================   
 STYLE SHEET INDEXING
@@ -1009,7 +1006,7 @@ Elements
   text-transform: capitalize;
   font-family: "DM Sans", sans-serif;
   text-align: center;
-  color: #0C0C0D;
+  color: #fbfbfc;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1052,6 +1049,7 @@ Elements
   display: block;
   z-index: -1;
 }
+
 .cus-btn.sec-red:hover {
   color: #FAFAFA;
 }
@@ -1068,7 +1066,7 @@ Elements
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(5deg);
-  background: #FAFAFA;
+  background: #C6357A;
   transition: 0.5s ease;
   display: block;
   z-index: -1;
@@ -3306,7 +3304,7 @@ footer .footer-wrapper .link-block .link-list li:hover a {
 }
 @media (max-width: 575px) {
   .faq-block .accordion-button {
-    font-size: 18px;
+ 
   }
 }
 .faq-block .accordion-button.collapsed {
@@ -3701,4 +3699,6 @@ hr {
   color: #187FDF;
 }
 
-
+.arrow-down {
+  margin-left: 5px;
+}
