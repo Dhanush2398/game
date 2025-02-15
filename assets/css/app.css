@@ -197,7 +197,7 @@ h1,
   font-weight: 700;
   font-size: clamp(61px, 3.594vw, 82px);
   /*69*/
-  line-height: 120%;
+  line-height: 100%;
   letter-spacing: -2.07px;
 }
 @media (max-width: 1199px) {
